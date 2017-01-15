@@ -179,11 +179,14 @@ hr{
 	padding-right: 30px;
 }
 #myButton i p{
+	padding-top:5px;
 	margin-top:5px;
 	font-family: proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	color:white;
 }
-
+#myButton i{
+	padding-top:7px;
+}
 
 
 
