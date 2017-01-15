@@ -1,0 +1,21 @@
+{
+  "name": "simple_page",
+  "version": "1.0.0",
+  "description": "Simple web server and html code",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mime-types": "^2.1.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "WIP"
+  },
+  "author": "Kirk Yuan",
+  "license": "MIT"
+}
