@@ -188,6 +188,29 @@ hr{
 	padding-top:7px;
 }
 
+/* ==== CONTACTS ==== */
+
+#contactIcons {
+    max-height: 200px;
+}
+#contactIcons i{
+    padding-left:10px;
+	padding-right: 10px;
+}
+
+#contact .fa-github-square{
+    color:purple;
+}
+
+#contact .fa-github-square:hover{
+	color:darkslateblue;
+}
+
+#contactIcons{
+    padding-top:10px;
+}
+
+
 /* ==== PROJECTS ==== */
 
 
