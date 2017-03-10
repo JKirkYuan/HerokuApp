@@ -194,12 +194,21 @@ hr{
     max-height: 200px;
 }
 #contactIcons i{
-    padding-left:10px;
+  padding-left:10px;
 	padding-right: 10px;
 }
 
+#contact .fa-linkedin-square:hover{
+	color:rgb(2, 24, 117);
+	text-decoration: none;
+}
+
 #contact .fa-github-square{
-    color:purple;
+  color:purple;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 #contact .fa-github-square:hover{
