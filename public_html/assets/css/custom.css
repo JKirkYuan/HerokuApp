@@ -71,14 +71,17 @@ button, input, .btn, a.btn {
 /* ==== HERO ==== */
 
 #hero {
-	background: url('../img/Pool.jpg') 50% 100% repeat fixed;
+	background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0)), url('../img/Pool.jpg') no-repeat   center center fixed ;
 	background-size: cover;
 	min-height: 640px;
 	position: relative;
 	display: table;
 	width: 100%;
-	padding: 40px 0;
+	/* padding: 40px 0; */
+	margin: 0px;
+  padding: 0px;
 	color: white;
+	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 }
@@ -103,7 +106,7 @@ button, input, .btn, a.btn {
 /* ==== ABOUT ==== */
 
 #about{
-	background: url('../img/whitebg.jpg') 50% 100% repeat fixed;
+	background: url('../img/whitebg.png') 50% 100% repeat fixed;
 	background-size: cover;
 	min-height: 640px;
 }
