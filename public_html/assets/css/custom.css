@@ -71,8 +71,8 @@ button, input, .btn, a.btn {
 /* ==== HERO ==== */
 
 #hero {
-	background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0)), url('../img/Pool.jpg') no-repeat   center center fixed ;
-	background-size: cover;
+	background: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0)), url('../img/Pool2.jpg') no-repeat  center center fixed;
+	background-size:cover;
 	min-height: 640px;
 	position: relative;
 	display: table;
@@ -81,9 +81,8 @@ button, input, .btn, a.btn {
 	/* padding: 40px 0; */
 	margin: 0px;
   padding: 0px;
-	color: white;
+	color:white;
 	overflow-x: hidden;
-	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 }
 
