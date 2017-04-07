@@ -56,10 +56,6 @@ blockquote:before {
 	display: none;
 }
 
-img {
-	max-width: 100%;
-}
-
 button, input, .btn, a.btn {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;

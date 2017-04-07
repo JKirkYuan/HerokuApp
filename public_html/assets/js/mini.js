@@ -11,4 +11,5 @@ $(function() {
       }
     }
   });
+  var myLazyLoad = new LazyLoad();
 });
