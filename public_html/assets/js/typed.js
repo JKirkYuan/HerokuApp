@@ -436,7 +436,7 @@
 		// backspacing speed
 		backSpeed: 0,
 		// shuffle the strings
-		shuffle: false,
+		shuffle: true,
 		// time before backspacing
 		backDelay: 1000,
 		// loop
@@ -446,7 +446,7 @@
 		// show cursor
 		showCursor: true,
 		// character for cursor
-		cursorChar: "|",
+		cursorChar: "",
 		// attribute to type (null == text)
 		attr: null,
 		// either html or text
