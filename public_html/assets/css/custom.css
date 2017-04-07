@@ -94,8 +94,7 @@ button, input, .btn, a.btn {
 }
 
 #hero p{
-	display: inline-block;
-  vertical-align: top;
+	display: inline;
 }
 
 #hero .hero-text {
