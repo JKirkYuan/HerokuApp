@@ -1,5 +1,5 @@
-# Kirk Yuan Webpage
+# Welcome to my personal site 🎊!
 
-## About
-This webpage was made with the help of bootstrap, hosting done with heroku, and server coded with nodejs.
-All front end visualizations and layouts were started with the bootstrap base template and made into what the website looks like right now
+This website will introduce who I am and the website would not be complete without the help of: </br>
+
+Bootstrap, Hover.css, Font-Awesome, Typed.js, and bits of jQuery 😄
