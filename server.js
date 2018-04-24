@@ -1,10 +1,17 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const path = require('path');
+const app = express();
+const ROOT = './src/site'
 
-app.set('port', (process.env.PORT || 5000));
 
-app.use(express.static(__dirname + '/public_html'));
+app
+    .set('port', (process.env.PORT || 5000))
+    .get(['/', '/index.html', '/index'], (req,res) => {
+        res.sendFile('index.html', {root: ROOT});
+    })
 
-app.listen(app.get('port'), function() {
-    console.log('Node app is running on port', app.get('port'));
-});
+    .use(express.static(ROOT))
+
+    .listen(app.get('port'), () => {
+    console.log('Node app is running on port', app.get('port'))
+    })

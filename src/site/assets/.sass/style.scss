@@ -1,0 +1,11 @@
+$primary: #ef9a9a;
+$primary-light: #ffcccb;
+$primary-dark: #ba6b6c;
+
+h2 {
+    color: $primary;
+    font-weight: 600;
+}
+body{
+    background-color: $primary-dark;
+}

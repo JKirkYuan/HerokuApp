@@ -4,13 +4,14 @@
   "description": "Simple web server and html code",
   "main": "server.js",
   "dependencies": {
+    "concurrently": "^3.5.1",
     "express": "^4.14.0",
     "mime-types": "^2.1.13"
   },
   "devDependencies": {},
   "scripts": {
     "test": "node server.js",
-    "start": "node server.js"
+    "start": "concurrently \"node server.js\" \"sass --watch ./src/site/assets/.sass/:./src/site/assets/css/\" "
   },
   "repository": {
     "type": "git",
