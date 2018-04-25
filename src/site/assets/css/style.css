@@ -144,8 +144,7 @@ body, html {
       box-shadow: 3px 14px 22px 3px #d8c6c4;
       background-color: white; }
       .projects .container .item {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        margin-top: 5rem;
         width: 100%;
         flex-grow: 1;
         display: block; }
@@ -174,8 +173,7 @@ body, html {
       background-color: white;
       box-shadow: 3px 14px 22px 3px #d8c6c4; }
       .projects .container .item {
-        margin-top: 3rem;
-        margin-bottom: 3rem;
+        margin-top: 5rem;
         width: 100%;
         flex-grow: 1;
         display: block; }
