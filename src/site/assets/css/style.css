@@ -11,6 +11,7 @@ body, html {
   padding: 0;
   margin: 0; }
 
+/* == Introduction == */
 .intro {
   position: relative;
   background-color: #f6e8e5;
@@ -31,6 +32,17 @@ body, html {
     right: 40%; }
     .intro .intro__text p {
       margin-top: 1rem; }
+      .intro .intro__text p a {
+        background: #2bdba6;
+        display: block;
+        width: 0px;
+        color: black;
+        text-decoration: none;
+        transition-property: width;
+        transition-duration: 0.5s;
+        -webkit-transition: width 0.5s; }
+      .intro .intro__text p a:hover {
+        width: 100px; }
   .intro .intro__profile {
     grid-area: profile;
     position: absolute;
@@ -40,6 +52,7 @@ body, html {
       height: 200px;
       border-radius: 50%; }
 
+/* == Projects == */
 @media (max-width: 575.98px) {
   .intro {
     display: grid;
