@@ -75,7 +75,8 @@ body, html {
   height: 70rem; }
   .projects h2 {
     padding-top: 3rem; }
-  .projects .container {
+  .projects .projects__container {
+    margin: auto;
     background-color: #f0dcda;
     margin-top: 2rem;
     height: 35rem;
@@ -133,22 +134,22 @@ body, html {
     height: 50rem; }
     .projects h2 {
       padding-top: 3rem; }
-    .projects .container {
+    .projects .projects__container {
+      margin: auto;
       display: flex;
       flex-direction: row;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       height: 30rem;
       margin-top: 4rem;
-      width: 70%;
+      width: 90%;
       border-radius: 6px;
       box-shadow: 3px 14px 22px 3px #d8c6c4;
       background-color: white; }
-      .projects .container .item {
+      .projects .projects__container .item {
         margin-top: 5rem;
-        width: 100%;
-        flex-grow: 1;
+        flex: 1 0 30%;
         display: block; }
-      .projects .container .item:hover {
+      .projects .projects__container .item:hover {
         background: #f7f7f7; } }
 @media (min-width: 1200px) {
   .intro .intro__profile {
@@ -162,22 +163,22 @@ body, html {
     height: 45rem; }
     .projects h2 {
       padding-top: 3rem; }
-    .projects .container {
+    .projects .projects__container {
+      margin: auto;
       display: flex;
       flex-direction: row;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       height: 30rem;
       margin-top: 4rem;
-      width: 70%;
+      width: 90%;
       border-radius: 6px;
       background-color: white;
       box-shadow: 3px 14px 22px 3px #d8c6c4; }
-      .projects .container .item {
+      .projects .projects__container .item {
         margin-top: 5rem;
-        width: 100%;
-        flex-grow: 1;
+        flex: 1 0 30%;
         display: block; }
-      .projects .container .item:hover {
+      .projects .projects__container .item:hover {
         background: #f7f7f7; } }
 
 /*# sourceMappingURL=style.css.map */

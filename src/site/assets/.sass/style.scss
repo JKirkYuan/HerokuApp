@@ -93,7 +93,8 @@ body,html {
     background-size: cover;
     background-color: $primary-dark;
     height: 70rem;
-    .container {
+    .projects__container {
+        margin: auto;
         background-color: $primary-dark;
         margin-top: 2rem;
         height: 35rem;
@@ -175,20 +176,20 @@ body,html {
         h2 {
             padding-top: 3rem;
         }
-        .container {
+        .projects__container {
+            margin: auto;
             display: flex;
             flex-direction: row;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             height: 30rem;
             margin-top: 4rem;
-            width: 70%;
+            width: 90%;
             border-radius: 6px;
             box-shadow: 3px 14px 22px 3px #d8c6c4;
             background-color: white;
             .item {
                 margin-top: 5rem;
-                width: 100%;
-                flex-grow: 1;
+                flex: 1 0 30%;
                 display: block;
             }
             .item:hover{
@@ -214,21 +215,21 @@ body,html {
         h2 {
             padding-top: 3rem;
         }
-        .container {
+        .projects__container {
+            margin: auto;
             display: flex;
             flex-direction: row;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             height: 30rem;
             margin-top: 4rem;
-            width: 70%;
+            width: 90%;
             border-radius: 6px;
             background-color: white;
             box-shadow: 3px 14px 22px 3px #d8c6c4;
             .item {
                 margin-top: 5rem;
-                width: 100%;
-                flex-grow: 1;
-                display: block; 
+                flex: 1 0 30%;
+                display: block;
             }
             .item:hover{
                 background: rgb(247, 247, 247);
