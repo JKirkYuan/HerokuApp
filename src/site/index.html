@@ -10,12 +10,14 @@
     
     <link href="./assets/css/style.css" rel="stylesheet">
 
-    <link href="assets/css/hover.css" rel="stylesheet" media="all">
+    <link href="./assets/css/hover.css" rel="stylesheet" media="all">
 
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
     <title>Kirk Yuan</title>
 
@@ -43,30 +45,33 @@
     <div class="projects">
         <h2 class="text-center"> Projects </h2>
         <div class="projects__container">
-            <div class="item">
-                <img>
-                <h4>Quest of the Round Table</h4>
+            <div class="item" onclick="location.href='https://github.com/JKirkYuan/Quest'">
+                <img src="assets/img/Quest.png" style="width:280px; height:230px;">
+                <h4>Quest Game</h4>
                 <p>
                     Board game converted into a fully functional Unity game that supports singleplayer, online multiplayer and
                     two AI difficulties.
                 </p>
             </div>
-            <div class="item">
-                <img>
-                <h4>Title Project</h4>
+            <div class="item" onclick="location.href='../Legacy_Site/index.html'">
+                <img src="assets/img/LegacySite.png" style="width:300px; height:230px;">
+                <h4>Legacy Website</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum pulvinar hendrerit.
-                    Vestibulum sit amet elit sit amet velit sagittis cursus. Nam vel dui ipsum. In vel lacinia magna.
+                    The first iteration of my personal website! 
+                    I spent a lot of time learning HTML, CSS and Bootstrap to create this simple, responsive portfolio for my projects.
                 </p>
             </div>
-            <div class="item">
-                <img>
-                <h4>Title Project</h4>
+            <div class="item" onclick="location.href='https://github.com/JKirkYuan/CleanYoutube'">
+                <img src="assets/img/YoutubeClone.png" style="width:320px; height:230px;">
+                <h4>React Youtube Clone</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas interdum pulvinar hendrerit.
-                    Vestibulum sit amet elit sit amet velit sagittis cursus. Nam vel dui ipsum. In vel lacinia magna.
+                    A Youtube clone built using React. Created components like video details and video results and 
+                    watched the state of the searchbar to return videos.
                 </p>
             </div>
+        </div>
+        <div class="projects__button__container">
+            <a href="https://github.com/JKirkYuan" data-title="All Projects"></a>
         </div>
     </div>
 </body>
@@ -81,4 +86,5 @@
     var scrolled = (winScroll / height) * 100;
     document.getElementById("myBar").style.width = scrolled + "%";
     }
+
 </script>
