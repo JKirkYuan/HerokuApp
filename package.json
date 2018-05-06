@@ -6,7 +6,8 @@
   "dependencies": {
     "concurrently": "^3.5.1",
     "express": "^4.14.0",
-    "mime-types": "^2.1.13"
+    "mime-types": "^2.1.13",
+    "request": "^2.85.0"
   },
   "devDependencies": {},
   "scripts": {
