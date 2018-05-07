@@ -295,6 +295,10 @@ forwarded@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
 
+framesync@^3.0.2, framesync@^3.1.7:
+  version "3.1.7"
+  resolved "https://registry.yarnpkg.com/framesync/-/framesync-3.1.7.tgz#9b9aa3eff8598625302597851a428f40c3dc1c6b"
+
 fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
@@ -470,6 +474,14 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
 
+popmotion@^8.1.22:
+  version "8.1.22"
+  resolved "https://registry.yarnpkg.com/popmotion/-/popmotion-8.1.22.tgz#71857484546ae5b7335b0704423a3a761de1fe67"
+  dependencies:
+    framesync "^3.1.7"
+    style-value-types "^1.0.4"
+    stylefire "^1.2.9"
+
 proxy-addr@~2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-2.0.3.tgz#355f262505a621646b3130a728eb647e22055341"
@@ -617,6 +629,17 @@ strip-ansi@^0.3.0:
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-0.3.0.tgz#25f48ea22ca79187f3174a4db8759347bb126220"
   dependencies:
     ansi-regex "^0.2.1"
+
+style-value-types@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/style-value-types/-/style-value-types-1.0.4.tgz#58df3a09281d719d981ee4a317addc434eecc877"
+
+stylefire@^1.2.9:
+  version "1.2.15"
+  resolved "https://registry.yarnpkg.com/stylefire/-/stylefire-1.2.15.tgz#ee681669a1cce9205c973293723ae1b3ede1372f"
+  dependencies:
+    framesync "^3.0.2"
+    style-value-types "^1.0.4"
 
 supports-color@^0.2.0:
   version "0.2.0"
