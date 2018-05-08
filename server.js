@@ -13,12 +13,22 @@ function ping() {
 
 app
     .set('port', (process.env.PORT || 5000))
+
+    .use('*', (req, res, next) => {
+        console.log(req.method + " request for " + req.url);
+        next();
+    })
+
     .get(['/', '/index.html', '/index'], (req,res) => {
         res.sendFile('index.html', {root: ROOT});
     })
 
     .get(['/Legacy_Site/index.html'], (req, res) => {
         res.sendFile('./Legacy_Site/index.html', {root: ROOT});
+    })
+
+    .get(['/shopifyf18'], (req,res) => {
+        res.sendFile('./ShopifyF18/index.html', {root: ROOT});
     })
 
     .use(express.static(ROOT))
