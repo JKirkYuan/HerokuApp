@@ -1,6 +1,31 @@
+body {
+    background-color: #f6e8e5;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
 .intro{
-    background: #f6e8e5;
     height: 100vh;
+    width: 100vw;
+}
+
+.intro .letter {
+    background: white;
+    height: 70rem;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.intro .letter .text p{
+    height: 1rem;
+    margin-top: 0.5rem;
+    left: 0;
+    padding-left:2rem;
+    padding-right: 2rem;
+    line-height: 1.5rem;
 }
 
 @media (min-width: 1024px) { 
@@ -18,11 +43,30 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         position: absolute;
+        margin-left: -0.48rem;
+    }
+    .intro .letter {
+        background: white;
+        height: 60rem;
+        width: 70%;
+        border-radius: 10px;
+        display: flex;
+        align-content: center;
+        margin: 0 auto;
     }
 }
 
 @media (min-width: 2200px) {
     .intro{
         height: 120rem;
+    }
+    .intro .letter {
+        background: white;
+        height: 60rem;
+        width: 70%;
+        border-radius: 10px;
+        display: flex;
+        align-content: center;
+        margin: 0 auto;
     }
 }
