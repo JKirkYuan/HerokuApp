@@ -181,6 +181,9 @@ body,html {
     display: flex;
     align-items: center;
     .contact__right{
+        a {
+            color: black;
+        }
         .contact__item{
             padding: 1rem 1rem;
             text-decoration: underline;
