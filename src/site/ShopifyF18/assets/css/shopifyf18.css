@@ -5,18 +5,22 @@ body {
 }
 .intro{
     height: 100vh;
-    width: 100vw;
 }
 
 .intro .letter {
+    overflow-y: auto;
     background: white;
-    height: 150rem;
+    min-height: 130vh;
+    width: 100%;
     border-radius: 10px;
     display: flex;
     align-content: center;
     margin: 0 auto;
+    margin-bottom: 1rem;
 }
-
+.intro .letter .text h3{
+    margin-left: 1rem;
+}
 .intro .letter .text p{
     height: 1rem;
     margin-top: 0.5rem;
@@ -26,7 +30,37 @@ body {
     line-height: 1.5rem;
 }
 
-@media (min-width: 1024px) { 
+@media (min-width: 1024px){
+    .intro{
+        height: 85rem;
+    }
+    .intro .parallax{
+        perspective: 100px;
+        margin-top: 40rem;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-image: url("../../../assets/img/parallax/Firewatch.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        margin-left: -0.48rem;
+    }
+    .intro .letter {
+        background: white;
+        height: 60rem;
+        width: 70%;
+        border-radius: 10px;
+        display: flex;
+        align-content: center;
+        margin: 0 auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width: 1200px) { 
     .intro{
         height: 80rem;
     }
