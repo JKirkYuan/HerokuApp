@@ -10,7 +10,7 @@ body {
 
 .intro .letter {
     background: white;
-    height: 70rem;
+    height: 100rem;
     border-radius: 10px;
     display: flex;
     align-content: center;
