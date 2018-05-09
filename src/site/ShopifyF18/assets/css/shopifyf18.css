@@ -10,13 +10,11 @@ body {
 
 .intro .letter {
     background: white;
-    height: 100rem;
+    height: 150rem;
     border-radius: 10px;
     display: flex;
     align-content: center;
     margin: 0 auto;
-    padding-left: 2rem;
-    padding-right: 2rem;
 }
 
 .intro .letter .text p{
@@ -53,6 +51,8 @@ body {
         display: flex;
         align-content: center;
         margin: 0 auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
 
@@ -68,5 +68,7 @@ body {
         display: flex;
         align-content: center;
         margin: 0 auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
