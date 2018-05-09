@@ -13,6 +13,7 @@ p {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 body,html {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -88,6 +89,7 @@ body,html {
 .projects {
     h2 {
         padding-top: 3rem;
+        text-align: center;
     }
     position: relative;
     background-size: cover;
@@ -107,6 +109,9 @@ body,html {
         margin-top: 1rem;
         margin-bottom: 0.5rem;
         border-radius: 6px;
+        h4{
+            font-weight: lighter;
+        }
         p {
             padding: 10px;
         }
@@ -170,6 +175,27 @@ body,html {
     }
 }
 
+.contact{
+    background: $primary-dark;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    .contact__right{
+        .contact__item{
+            padding: 1rem 1rem;
+            text-decoration: underline;
+            background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+            background-repeat: no-repeat;
+            background-size: 0% 0.3em;
+            background-position: 15px 65%;
+            transition: background-size 0.25s ease-in;
+            &:hover {
+                background-size: 65% 30%;
+            }
+        }
+    }
+}
+
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
     .intro{
@@ -192,10 +218,22 @@ body,html {
             display: none;
         }
     }
+    .projects{
+        margin-top: -2rem;
+    }
+    .contact{
+        background: $primary-dark;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        .contact__right{
+            margin: 0 auto;
+        }
+    }
  }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 1049px) {
     .intro{
         display: grid;
         grid-template-columns: 1fr;
@@ -214,6 +252,18 @@ body,html {
         }
         .parallax {
             display: none;
+        }
+    }
+    .projects{
+        margin-top: -2rem;
+    }
+    .contact{
+        background: $primary-dark;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        .contact__right{
+            margin: 0 auto;
         }
     }
 }
@@ -263,6 +313,28 @@ body,html {
             margin-top: 3rem;
         }
     }
+    .contact{
+        background: $primary-dark;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        padding-right: 4.2rem;
+        .contact__right{
+            margin-left: auto;
+            .contact__item{
+                padding: 1rem 1rem;
+                text-decoration: underline;
+                background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+                background-repeat: no-repeat;
+                background-size: 0% 0.3em;
+                background-position: 15px 65%;
+                transition: background-size 0.25s ease-in;
+                &:hover {
+                    background-size: 65% 30%;
+                }
+            }
+        }
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -310,6 +382,28 @@ body,html {
             align-items: center;
             justify-content: center;
             margin-top: 3rem;
+        }
+    }
+    .contact{
+        background: $primary-dark;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        padding-right: 4.2rem;
+        .contact__right{
+            margin-left: auto;
+            .contact__item{
+                padding: 1rem 1rem;
+                text-decoration: underline;
+                background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+                background-repeat: no-repeat;
+                background-size: 0% 0.3em;
+                background-position: 15px 65%;
+                transition: background-size 0.25s ease-in;
+                &:hover {
+                    background-size: 65% 30%;
+                }
+            }
         }
     }
 }
