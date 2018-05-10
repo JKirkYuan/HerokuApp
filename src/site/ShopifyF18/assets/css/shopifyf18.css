@@ -62,11 +62,11 @@ body {
 
 @media (min-width: 1200px) { 
     .intro{
-        height: 80rem;
+        height: 85rem;
     }
     .intro .parallax{
         perspective: 100px;
-        margin-top: 40rem;
+        margin-top: 37rem;
         height: 100%;
         width: 100%;
         overflow-x: hidden;
