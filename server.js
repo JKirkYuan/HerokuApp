@@ -31,6 +31,10 @@ app
         res.sendFile('./ShopifyF18/index.html', {root: ROOT});
     })
 
+    .get(['/.well-known/acme-challenge/Aoo1rN1sZs2rAf-qaEdU5Y-KhhXG3OvjAvuqZwMe7fU'], (req,res) => {
+        res.sendFile('./acme', {root: ROOT});
+    })
+
     .use(express.static(ROOT))
 
     .listen(app.get('port'), () => {
