@@ -2,6 +2,7 @@
 
 This website will introduce who I am and the website would not be complete without the help of: </br>
 
-Bootstrap, Hover.css, Font-Awesome, Typed.js, and bits of jQuery 😄
+Legacy Site made with: Bootstrap, Hover.css, Font-Awesome, Typed.js, and bits of jQuery 😄
+Current Site made utilizing: CSSGrid, Flexbox, Font-Awesome
 
 You can find the site here [kirkyuan.com](http://www.kirkyuan.com)
