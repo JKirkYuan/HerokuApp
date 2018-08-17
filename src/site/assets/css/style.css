@@ -10,7 +10,8 @@ p {
 body, html {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  background: #f0dcda; }
 
 .header {
   position: fixed;
@@ -73,7 +74,7 @@ body, html {
   position: relative;
   background-size: cover;
   background-color: #f0dcda;
-  min-height: 150vh; }
+  min-height: 65vh; }
   .projects h2 {
     padding-top: 3rem;
     text-align: center; }
@@ -81,12 +82,13 @@ body, html {
     margin: auto;
     background-color: #f0dcda;
     margin-top: 2rem;
+    min-height: 65vh;
     width: 90%;
     flex-wrap: wrap; }
   .projects .item {
     text-align: center;
     background-color: white;
-    height: 26rem;
+    min-height: 20rem;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
     border-radius: 6px; }
@@ -233,7 +235,6 @@ body, html {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      min-height: 100vh;
       margin-top: 4rem;
       width: 90%;
       border-radius: 6px;
@@ -243,8 +244,7 @@ body, html {
         margin-top: 1rem;
         padding-top: 0.5rem;
         flex: 1 0 30%;
-        display: block;
-        height: 27rem; }
+        display: block; }
       .projects .projects__container .item:hover {
         background: #f7f7f7; }
     .projects .projects__button__container {
@@ -287,7 +287,6 @@ body, html {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      min-height: 100vh;
       margin-top: 4rem;
       width: 90%;
       border-radius: 6px;
@@ -299,8 +298,7 @@ body, html {
         flex: 1 0 30%;
         display: block;
         margin-left: 1rem;
-        margin-right: 1rem;
-        height: 27rem; }
+        margin-right: 1rem; }
       .projects .projects__container .item:hover {
         background: #f7f7f7; }
     .projects .projects__button__container {
